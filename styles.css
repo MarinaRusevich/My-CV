@@ -1,0 +1,102 @@
+body {
+    background-color: floralwhite;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+ }
+
+ .insta {
+    color: deeppink;
+    
+ }
+
+.telega {
+    color: dodgerblue;
+
+    }
+.avatar {
+    width: 200px;
+    border-radius: 34px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    
+    
+}
+.info {
+    display: flex;
+}
+
+.info-text {
+    margin-left: 40px;
+}
+.info  {
+    color: #1d1f47;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+}
+
+@media (max-width: 700px){
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.info1 {
+    margin-bottom: 20px;
+}
+
+   .container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+   }
+   /*.social {
+    background: mediumspringgreen;
+    padding: 15px;
+    border: 5px solid purple;
+    margin: 5px;
+   }*/
+   .bg-green {
+    background: aquamarine;
+   }
+   .bg-yellow {
+    background: navajowhite;
+   }
+   .bg-pink {
+    background: rgb(250, 214, 220);
+   }
+   .card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 30px;
+       }
+.list {
+    color: #1d1f47;
+    margin-bottom: 7px;
+}
+.table {
+width: 100%;
+}
+.contact h2{
+text-align: center;
+}
+ .form-group input,
+ .form-group textarea {
+    width: 50%;
+    box-sizing: border-box;
+    border: darkorange;
+    border-bottom: 1px solid rgb(252, 224, 155);
+    padding: 15px 0 10px;
+    outline-color: rgb(247, 196, 30);
+    
+     }  
+     .btn {
+    padding: 15px 20px;
+    background: darkorange;
+    cursor: pointer;
+     } 
+     .btn:hover {
+        opacity: 0.9;
+     }
